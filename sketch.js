@@ -30,10 +30,10 @@ function setup() {
 	box1=createSprite(400,660,100,10);
 	box1.shapeColor=color(85)
 
-	box2=createSprite(350,605,10,50);
+	box2=createSprite(350,605,10,100);
 	box2.shapeColor=color(85)
 
-	box3=createSprite(450,605,10,50);
+	box3=createSprite(450,605,10,100);
 	box3.shapeColor=color(85)
 
 
