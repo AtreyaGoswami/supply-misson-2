@@ -27,20 +27,20 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	box1=createSprite(400,605,100,10);
+	box1=createSprite(400,660,100,10);
 	box1.shapeColor=color(85)
 
-	box2=createSprite(350,605,10,100);
+	box2=createSprite(350,605,10,50);
 	box2.shapeColor=color(85)
 
-	box3=createSprite(450,605,10,100);
+	box3=createSprite(450,605,10,50);
 	box3.shapeColor=color(85)
 
 
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:3, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.3, isStatic:true});
 	World.add(world, packageBody);
 	
 
