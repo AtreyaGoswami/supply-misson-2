@@ -28,13 +28,13 @@ function setup() {
 	groundSprite.shapeColor=color(255)
 
 	box1=createSprite(400,660,100,10);
-	box1.shapeColor=color(85)
+	box1.shapeColor=color("red");
 
 	box2=createSprite(350,635,10,100);
-	box2.shapeColor=color(85)
+	box2.shapeColor=color("red");
 
 	box3=createSprite(450,635,10,100);
-	box3.shapeColor=color(85)
+	box3.shapeColor=color("red");
 
 
 	engine = Engine.create();
